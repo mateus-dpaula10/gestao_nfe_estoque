@@ -1,0 +1,81 @@
+$roxo: #7533a8;
+
+body {
+    display: flex;
+    min-height: 100dvh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    nav {
+        background-color: $roxo;
+        
+        a {
+            color: #FFF !important;
+        }
+
+        img {
+            max-width: 3rem;
+        }
+    }
+}
+
+main {
+    .cadastrados {
+        table {
+            td {
+                a {
+                    text-decoration: none;
+                    color: initial;
+
+                    i {
+                        cursor: pointer;
+                    }
+                }
+
+                form {
+                    button {
+                        outline: none;
+                        border: 0;
+                        background-color: transparent;
+                    }
+
+                    i {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .list-group {
+            div {
+                a {
+                    text-decoration: none;
+                    color: initial;
+    
+                    i {
+                        cursor: pointer;
+                    }
+                }
+    
+                form {
+                    button {
+                        outline: none;
+                        border: 0;
+                        background-color: transparent;
+                    }
+    
+                    i {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $roxo;
+    color: #FFF;
+}

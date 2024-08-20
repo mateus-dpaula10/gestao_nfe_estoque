@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header nav {
+  background-color: #7533a8;
+}
+header nav a {
+  color: #FFF !important;
+}
+header nav img {
+  max-width: 3rem;
+}
+
+main .cadastrados table td a {
+  text-decoration: none;
+  color: initial;
+}
+main .cadastrados table td a i {
+  cursor: pointer;
+}
+main .cadastrados table td form button {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+main .cadastrados table td form i {
+  cursor: pointer;
+}
+main .cadastrados .list-group div a {
+  text-decoration: none;
+  color: initial;
+}
+main .cadastrados .list-group div a i {
+  cursor: pointer;
+}
+main .cadastrados .list-group div form button {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+main .cadastrados .list-group div form i {
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7533a8;
+  color: #FFF;
+}/*# sourceMappingURL=style.css.map */
