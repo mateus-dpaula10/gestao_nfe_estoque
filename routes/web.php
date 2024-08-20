@@ -22,4 +22,7 @@ Route::middleware('auth')->group(function() {
 });
 
 Auth::routes();
-Auth::routes(['reset' => true]);
+Auth::routes([
+    'reset' => true,
+    'register' => false
+]);
